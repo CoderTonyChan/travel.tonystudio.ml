@@ -25,8 +25,8 @@ export default {
       const map = new mapboxgl.Map({
         container: "map",
         style: "mapbox://styles/tonychan/cjujkp29y2fqr1fp1e4ixcetn",
-        center: [-3, 55],
-        zoom: 2
+        center: [115.8, 28.6], // 经纬度
+        zoom: 3 // 3 差不多
       })
       map.addControl(new mapboxgl.NavigationControl())
 
